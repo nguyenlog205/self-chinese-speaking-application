@@ -1,0 +1,63 @@
+2026-06-20 23:28:33 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:28:33 - tts_api - INFO - Starting server on 0.0.0.0:8000 (reload=True)
+2026-06-20 23:28:33 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:28:36 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:28:36 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:30:22 - tts_api - INFO - Synthesized: '欢迎参加HSK三级考试...' (speaker=Vivian)
+2026-06-20 23:31:03 - tts_api - INFO - Synthesized: '欢迎参加汉语水平考试三级考试...' (speaker=Vivian)
+2026-06-20 23:31:20 - tts_api - INFO - Synthesized: '欢迎参加汉语水平考试三级考试...' (speaker=Vivian)
+2026-06-20 23:31:25 - tts_api - INFO - Synthesized: '欢迎参加汉语水平考试三级考试...' (speaker=Vivian)
+2026-06-20 23:32:45 - tts_api - INFO - Synthesized: '你好大家，龙哥哥是最帅的男人的...' (speaker=Vivian)
+2026-06-20 23:35:05 - tts_api - INFO - Synthesized: '你好大家，龙哥哥是最帅的男人的...' (speaker=Dylan)
+2026-06-20 23:35:52 - tts_api - INFO - Synthesized: '你好大家，龙哥哥是最帅的男人的...' (speaker=Dylan)
+2026-06-20 23:37:29 - tts_api - INFO - Synthesized: '你好大家，龙哥哥是最帅的男人的...' (speaker=Dylan)
+2026-06-20 23:42:35 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:42:35 - tts_api - INFO - TTS API application created successfully.
+2026-06-20 23:43:56 - tts_api - INFO - All routers registered.
+2026-06-20 23:43:56 - tts_api - INFO - All routers registered.
+2026-06-20 23:44:00 - tts_api - INFO - All routers registered.
+2026-06-20 23:44:00 - tts_api - INFO - All routers registered.
+2026-06-20 23:50:02 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Uncle_Fu)
+2026-06-20 23:50:54 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Eric)
+2026-06-20 23:51:02 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Eric)
+2026-06-20 23:51:19 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Eric)
+2026-06-20 23:51:44 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Aiden)
+2026-06-20 23:52:05 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Aiden)
+2026-06-20 23:52:20 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Aiden)
+2026-06-20 23:52:33 - tts_api - INFO - Synthesized: '你笑起来真好看...' (speaker=Aiden)
+2026-06-21 00:00:46 - tts_api - INFO - All routers registered.
+2026-06-21 00:00:46 - tts_api - INFO - All routers registered.
+2026-06-21 00:00:53 - tts_api - INFO - All routers registered.
+2026-06-21 00:00:53 - tts_api - INFO - All routers registered.
+2026-06-21 00:01:21 - tts_api - INFO - All routers registered.
+2026-06-21 00:01:21 - tts_api - INFO - All routers registered.
+2026-06-21 00:04:59 - tts_api - INFO - All routers registered.
+2026-06-21 00:04:59 - tts_api - INFO - All routers registered.
+2026-06-21 00:05:03 - tts_api - INFO - All routers registered.
+2026-06-21 00:05:03 - tts_api - INFO - All routers registered.
+2026-06-21 00:40:22 - tts_api - INFO - All routers registered.
+2026-06-21 00:40:22 - tts_api - INFO - All routers registered.
+2026-06-21 00:42:25 - tts_api - INFO - All routers registered.
+2026-06-21 00:42:25 - tts_api - INFO - All routers registered.
+2026-06-21 00:42:50 - tts_api - INFO - Synthesized: '你好...' (speaker=Vivian)
+2026-06-21 00:44:41 - tts_api - INFO - All routers registered.
+2026-06-21 00:44:41 - tts_api - INFO - All routers registered.
+2026-06-21 00:46:00 - tts_api - INFO - All routers registered.
+2026-06-21 00:46:00 - tts_api - INFO - All routers registered.
+2026-06-21 00:57:03 - tts_api - INFO - All routers registered.
+2026-06-21 00:57:03 - tts_api - INFO - All routers registered.
+2026-06-21 01:07:33 - tts_api - INFO - All routers registered.
+2026-06-21 01:07:33 - tts_api - INFO - All routers registered.
+2026-06-21 01:07:48 - tts_api - INFO - Synthesized: '你好大家，我叫阮煌龙...' (speaker=Vivian)
+2026-06-21 01:07:50 - tts_api - INFO - Synthesized: '你好大家，我叫阮煌龙...' (speaker=Vivian)
+2026-06-21 01:26:59 - tts_api - INFO - Synthesized: '你好 我叫阮煌龙...' (speaker=Vivian)
+2026-06-21 01:37:45 - tts_api - INFO - All routers registered.
+2026-06-21 01:37:45 - tts_api - INFO - All routers registered.
+2026-06-21 01:37:57 - tts_api - INFO - All routers registered.
+2026-06-21 01:37:57 - tts_api - INFO - All routers registered.
+2026-06-21 01:42:54 - tts_api - INFO - All routers registered.
+2026-06-21 01:42:54 - tts_api - INFO - All routers registered.
+2026-06-21 01:47:36 - tts_api - INFO - All routers registered.
+2026-06-21 01:47:36 - tts_api - INFO - All routers registered.
+2026-06-21 02:00:31 - tts_api - INFO - All routers registered.
+2026-06-21 02:00:31 - tts_api - INFO - All routers registered.

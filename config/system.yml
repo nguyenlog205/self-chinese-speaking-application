@@ -1,0 +1,14 @@
+system:
+  log_level: INFO
+  log_dir: logs
+
+tts:
+  compile: false                 # set to true for faster inference (requires more VRAM)
+  default_speaker: auto
+  default_temperature: 0.3
+  default_bitrate: 192k
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  reload: true
