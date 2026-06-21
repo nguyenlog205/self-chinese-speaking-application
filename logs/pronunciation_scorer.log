@@ -24,3 +24,9 @@
 2026-06-21 15:39:45 - pronunciation_scorer - INFO - Whisper model 'tiny' loaded successfully.
 2026-06-21 15:42:22 - pronunciation_scorer - INFO - Initialising PronunciationScorer with model: tiny
 2026-06-21 15:42:22 - pronunciation_scorer - INFO - Whisper model 'tiny' loaded successfully.
+2026-06-21 19:13:23 - pronunciation_scorer - INFO - Initialising PronunciationScorer with model: tiny
+2026-06-21 19:13:24 - pronunciation_scorer - INFO - Whisper model 'tiny' loaded successfully.
+2026-06-21 19:13:34 - pronunciation_scorer - INFO - Initialising PronunciationScorer with model: tiny
+2026-06-21 19:13:35 - pronunciation_scorer - INFO - Whisper model 'tiny' loaded successfully.
+2026-06-21 19:18:46 - pronunciation_scorer - INFO - Initialising PronunciationScorer with model: tiny
+2026-06-21 19:18:47 - pronunciation_scorer - INFO - Whisper model 'tiny' loaded successfully.
