@@ -3,3 +3,5 @@ venv/
 asset/
 
 __pycache__/
+
+models/

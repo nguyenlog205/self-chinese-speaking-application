@@ -322,3 +322,32 @@ This project is open‑source and available under the MIT License.
 - Tailwind CSS – utility‑first CSS framework.
 - Jieba – Chinese text segmentation.
 - Pypinyin – Pinyin conversion.
+
+## 15. Deployment
+
+### 15.1. Docker Compose (Development)
+
+```bash
+chmod +x deployment/scripts/build.sh
+./deployment/scripts/build.sh
+./deployment/scripts/deploy.sh
+```
+
+```bash
+docker-compose -f deployment/docker/docker-compose.yml up -d
+```
+
+### 15.2. Kubernetes (Production)
+#### 15.2.1. Build images
+```bash
+docker build -t chinese-backend:latest -f deployment/docker/backend/Dockerfile .
+docker build -t chinese-frontend:latest -f deployment/docker/frontend/Dockerfile .
+```
+
+#### 15.2.2. Apply manifests
+```bash
+kubectl apply -f deployment/kubernetes/backend/
+kubectl apply -f deployment/kubernetes/frontend/
+kubectl apply -f deployment/kubernetes/ingress.yml
+kubectl apply -f deployment/kubernetes/configmap.yml
+```

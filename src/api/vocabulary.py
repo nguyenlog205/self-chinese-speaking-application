@@ -6,20 +6,19 @@ from fastapi import APIRouter, Query, HTTPException
 from src.services.vocabulary_service import VocabularyService
 
 router = APIRouter(prefix="/vocabulary", tags=["Vocabulary"])
-service = VocabularyService()
+
+
+def get_service():
+    """Factory function to allow mocking in tests."""
+    return VocabularyService()
 
 
 @router.get("/lookup/")
 async def lookup_word(
     word: str = Query(..., description="Chinese word to look up (simplified or traditional).")
 ):
-    """
-    Look up a Chinese word and return its meanings, pinyin, and variants.
-
-    Example:
-        GET /vocabulary/lookup/?word=你好
-    """
     try:
+        service = get_service()
         result = service.lookup(word)
         return result
     except ValueError as e:
@@ -29,16 +28,18 @@ async def lookup_word(
 
 
 @router.post("/lookup-batch/")
-async def lookup_batch(
-    words: list[str] = Query(..., description="List of Chinese words to look up.")
-):
+async def lookup_batch(payload: dict):
     """
     Look up multiple Chinese words at once.
-
-    Example:
-        POST /vocabulary/lookup-batch/?words=你好&words=世界&words=学习
+    Expects JSON: {"words": ["你好", "世界"]}
     """
+    words = payload.get("words")
+    if words is None:
+        raise HTTPException(status_code=400, detail="Missing 'words' field")
+    if not isinstance(words, list):
+        raise HTTPException(status_code=400, detail="'words' must be a list")
     try:
+        service = get_service()
         results = service.lookup_batch(words)
         return {"results": results}
     except ValueError as e:
