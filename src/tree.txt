@@ -1,0 +1,46 @@
+.
+├── api
+│   ├── pronunciation.py
+│   ├── __pycache__
+│   │   ├── pronunciation.cpython-310.pyc
+│   │   ├── text_analyzer.cpython-310.pyc
+│   │   ├── text_to_speech.cpython-310.pyc
+│   │   └── vocabulary.cpython-310.pyc
+│   ├── text_analyzer.py
+│   ├── text_to_speech.md
+│   ├── text_to_speech.py
+│   └── vocabulary.py
+├── core
+│   ├── database
+│   │   ├── database.py
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── pronunciation_scorer.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── pronunciation_scorer.cpython-310.pyc
+│   │   ├── text_analyzer.cpython-310.pyc
+│   │   ├── tts_engine.cpython-310.pyc
+│   │   └── vocabulary_engine.cpython-310.pyc
+│   ├── text_analyzer.py
+│   ├── tts_engine.md
+│   ├── tts_engine.py
+│   └── vocabulary_engine.py
+├── main.py
+├── __pycache__
+│   ├── main.cpython-310.pyc
+│   └── utils.cpython-310.pyc
+├── services
+│   ├── analysis_service.py
+│   ├── __pycache__
+│   │   ├── analysis_service.cpython-310.pyc
+│   │   ├── scoring_service.cpython-310.pyc
+│   │   ├── tts_service.cpython-310.pyc
+│   │   └── vocabulary_service.cpython-310.pyc
+│   ├── scoring_service.py
+│   ├── tts_service.py
+│   └── vocabulary_service.py
+├── tree.txt
+└── utils.py
+
+9 directories, 35 files

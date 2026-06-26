@@ -46,3 +46,7 @@
 2026-06-21 15:42:31 - vocabulary_engine - INFO - Loaded 198100 entries.
 2026-06-21 15:42:31 - vocabulary_engine - INFO - Loading CEDICT from /home/nguyenlog205/projects/university/semester65/zhongwen-yingyong/models/cedict/cedict_ts.u8
 2026-06-21 15:42:32 - vocabulary_engine - INFO - Loaded 198100 entries.
+2026-06-26 16:18:25 - vocabulary_engine - INFO - Loading CEDICT from mounted path: /home/nguyenlog205/projects/university/semester65/zhongwen/zhongwen-yingyong/models/cedict/cedict_ts.u8
+2026-06-26 16:18:26 - vocabulary_engine - INFO - Loaded 198100 entries.
+2026-06-26 16:36:09 - vocabulary_engine - INFO - Loading CEDICT from mounted path: /home/nguyenlog205/projects/university/semester65/zhongwen/zhongwen-yingyong/models/cedict/cedict_ts.u8
+2026-06-26 16:36:10 - vocabulary_engine - INFO - Loaded 198100 entries.

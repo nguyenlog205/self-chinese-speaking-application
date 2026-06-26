@@ -4,7 +4,7 @@ Calls core text analyzer, handles validation, logging.
 """
 
 import logging
-from src.core.text_analyzer import get_analyzer
+from src.core.engines.text_analyzer import get_analyzer
 
 logger = logging.getLogger("analysis_service")
 

@@ -1,0 +1,5 @@
+fastapi==0.138.1
+pydantic==2.13.4
+shared==0.0.32
+uvicorn
+pyyaml

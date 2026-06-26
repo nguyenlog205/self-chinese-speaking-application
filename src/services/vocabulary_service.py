@@ -3,7 +3,7 @@ Vocabulary service - business logic for dictionary lookup.
 """
 
 import logging
-from src.core.vocabulary_engine import VocabularyEngine
+from src.core.engines.vocabulary_engine import VocabularyEngine
 
 logger = logging.getLogger("vocabulary_service")
 

@@ -2,13 +2,57 @@ system:
   log_level: INFO
   log_dir: logs
 
-tts:
-  compile: false                 # set to true for faster inference (requires more VRAM)
-  default_speaker: auto
-  default_temperature: 0.3
-  default_bitrate: 192k
+# ===============================================
+# Core Engines Definition
+# ===============================================
+engines:
+  tts:
+    compile: false                 # set to true for faster inference (requires more VRAM)
+    default_speaker: auto
+    default_temperature: 0.3
+    default_bitrate: 192k
+  
+  text_analyzer:
+    fallback_language: "zh"
+    detailed_mode: true
 
+  pronunciation_scorer:
+    threshold: 60.0
+    mode: "strict"
+
+  vocabulary_engine:
+    base_dir: "./models" 
+    model_name_default: "cedict"
+    # Khi đẩy lên Cloud, bạn chỉ cần sửa base_dir thành đường dẫn tuyệt đối của ổ đĩa được mount vào Container:
+    # base_dir: "/mnt/disks/gcp_models_volume"
+
+
+    
+# ===============================================
+# Database Configuration
+# ===============================================
+database:
+  url: "sqlite+aiosqlite:///./local_database.db"
+  echo: false
+
+# ===============================================
+# API Server Configuration
+# ===============================================
 api:
   host: 0.0.0.0
   port: 8000
   reload: true
+
+
+
+# ==========================================================================================
+
+
+
+# ==========================================================================================
+# ==========================================================================================
+# BACKEND
+# ==========================================================================================
+# ==========================================================================================
+dictionary:
+  path: "models/cedict/cedict_ts.u8"

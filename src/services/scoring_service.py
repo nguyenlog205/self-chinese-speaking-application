@@ -9,7 +9,7 @@ from typing import List, Dict, Any, Tuple, Optional
 from difflib import SequenceMatcher
 
 from pypinyin import pinyin, Style
-from src.core.pronunciation_scorer import get_scorer
+from src.core.engines.pronunciation_scorer import get_scorer
 
 logger = logging.getLogger("scoring_service")
 
